@@ -52,7 +52,7 @@ def load_chain():
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
     db = FAISS.load_local(
-        "vector_store/db_faiss", embedding_model, allow_dangerous_deserialization=True
+        "ageeegit/vector_store/db_faiss", embedding_model, allow_dangerous_deserialization=True
     )
     llm = ChatGroq(
         model="llama-3.1-8b-instant",
