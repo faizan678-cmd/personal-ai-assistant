@@ -1,0 +1,19 @@
+# RAG Pipeline Requirements
+# PDF Loading + Directory Loader
+pymupdf==1.27.2.3
+
+# LangChain packages
+langchain==1.3.10
+langchain-core==1.4.8
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+langchain-huggingface==1.2.2
+langchain-groq==1.1.3
+
+# Vector Store
+faiss-cpu==1.14.3
+
+# HuggingFace (for embeddings)
+sentence-transformers
+transformers
+torch
