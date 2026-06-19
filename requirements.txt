@@ -17,3 +17,4 @@ faiss-cpu==1.14.3
 sentence-transformers
 transformers
 torch
+dotenv
